@@ -15,9 +15,11 @@ class Listchainee{
 private:
 	maillon *tete;
 public:
-	Listchainee();
+	Listchainee(maillon);
 	~Listchainee();
 	void addmaillon(int,maillon*);
+	void addtete(int);
+	void addend(int);
 	void parcours();
 };
 

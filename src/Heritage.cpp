@@ -12,7 +12,9 @@ using namespace std;
 #include "Listechainee.h"
 
 int main() {
-
+	maillon A;
+	A.nxt = NULL;
+	A.val = 5;
 
 	return 0;
 }
